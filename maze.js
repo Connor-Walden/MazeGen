@@ -54,7 +54,7 @@ class Maze {
             let link = document.createElement('a');
             
             link.download = 'maze.png';
-            link.href = this.canvas.toDataURL();
+            link.href = this.canvas.element.toDataURL();
 
             link.click();
         });
