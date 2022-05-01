@@ -1,0 +1,7 @@
+- Recursive Backtracking
+    - look for neighboring cells in a + shape that have not been visited yet
+        - if neighbor exists:
+            - move to that cell and mark as visited
+            - open previous and new cell in the direction of each other
+        - if no neighbor:
+            - go back through the stack and repeat neighbor check until the stack is empty
